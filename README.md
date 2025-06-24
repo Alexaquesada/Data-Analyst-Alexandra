@@ -278,7 +278,6 @@ As part of the advanced practice, an additional business problem was addressed t
 - Fishbone diagram analyzing causes affecting candidate engagement (Appendix A)
 - Full Data Analytics Platform (DAP) Solution Architecture (Appendix B)
 
-> 💡 **Insertar imagen aquí: Fishbone Diagram & Architecture Diagram**
 
 ### 6.2 Design
 
@@ -406,8 +405,6 @@ As a final project exercise, I applied the full cloud data platform development 
 
 This profiling stage guided the design of cleaning workflows to ensure data quality.
 
-> 💡 **Insertar imagen aquí: DataBrew Profiling Summary**
-
 ### 3️⃣ Data Cleaning
 
 - A new S3 bucket `vcp-cln-ale` was created to store cleaned data.
@@ -417,7 +414,6 @@ This profiling stage guided the design of cleaning workflows to ensure data qual
   - Negative values (representing budget reductions) were validated and retained.
 - The cleaning workflow was automated in **DataBrew Job**: `vcp-cleaning job-ale`.
 
-> 💡 **Insertar imagen aquí: DataBrew Cleaning Job Configuration**
 
 ### 4️⃣ Data Cataloging
 
